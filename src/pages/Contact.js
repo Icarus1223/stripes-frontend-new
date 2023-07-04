@@ -16,7 +16,7 @@ const Contact = () => {
             className="grid grid-cols-2 font-Mont"
             id="contact"
         >
-            <div className="grid col-span-2 sm:col-span-1 sm:text-center gap-20 px-[50px]">
+            <div className="grid col-span-2 sm:col-span-1 gap-20 px-[50px]">
                 <div
                     className="text-[#9C000E] text-6xl font-[900] mt-5"
                 >
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className="hidden sm:flex flex-col justify-between col-span-1">
-                <div className="flex mt-[-20px]scale-90 overflow-hidden">
+                <div className="flex justify-end mt-[-20px]scale-90 overflow-hidden ">
                     <img src={deliveryImg} alt="deliverImg" />
                 </div>
                 <div className="flex sm:justify-end pb-3 pr-10 gap-2">

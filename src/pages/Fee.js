@@ -4,8 +4,8 @@ import lineImg from "../assets/images/line.png";
 const Fee = () => {
     return (
         <div className="grid grid-cols-3 p-3">
-            <div className="grid grid-cols-1 place-items-end">
-                <img src={humanImg} alt="humanImg"></img>
+            <div className="grid grid-cols-1 w-full object-cover">
+                <img className=""src={humanImg} alt="humanImg"></img>
             </div>
             <div className="flex items-end flex-col grid-cols-1 gap-4 font-Mont text-[#11004B] mt-10 ">
                 <p className="text-right text-[30px] sm:text-[80px] md:text-[100px] font-[900]">10%</p>
